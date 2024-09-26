@@ -192,9 +192,10 @@ export default function AdvancedAILandingPage() {
       key="success"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
-      className="text-[#0071e3] dark:text-[#0077ED] text-lg bg-white/80 dark:bg-[#2d2d2f]/80 p-4 rounded-2xl shadow-lg backdrop-blur-sm"
+      className="text-xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 leading-tight"
+      //className="text-xl  font-semibold text-lg bg-white/80 dark:bg-[#2d2d2f]/80 p-4 rounded-2xl shadow-lg backdrop-blur-sm from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400"
       >
-      <p>Thank you for joining our exclusive waitlist. We&aposll be in touch soon.</p>
+      <p>Thank you for joining our exclusive waitlist. We'll be in touch soon.</p>
         </motion.div>
       )}
       </AnimatePresence>
