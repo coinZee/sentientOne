@@ -194,7 +194,7 @@ export default function AdvancedAILandingPage() {
       animate={{ opacity: 1, scale: 1 }}
       className="text-[#0071e3] dark:text-[#0077ED] text-lg bg-white/80 dark:bg-[#2d2d2f]/80 p-4 rounded-2xl shadow-lg backdrop-blur-sm"
       >
-      <p>Thank you for joining our exclusive waitlist. We'll be in touch soon.</p>
+      <p>Thank you for joining our exclusive waitlist. We&aposll be in touch soon.</p>
         </motion.div>
       )}
       </AnimatePresence>
