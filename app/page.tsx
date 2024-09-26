@@ -64,7 +64,7 @@ export default function AdvancedAILandingPage() {
   }
 
   const features = [
-    { icon: <Image alt="" className="w-6 h-6" />, name: "Image Generation", description: "State-of-the-art model for unparalleled image creation" },
+    { icon: <Image  className="w-6 h-6" />, name: "Image Generation", description: "State-of-the-art model for unparalleled image creation" },
       { icon: <MessageSquare className="w-6 h-6" />, name: "Advanced Chatbot", description: "Cutting-edge conversational AI for natural interactions" },
       { icon: <Mic className="w-6 h-6" />, name: "Audio Generation", description: "High-fidelity audio synthesis for various applications" },
       { icon: <Phone className="w-6 h-6" />, name: "AI Calls", description: "Intelligent voice interactions powered by advanced AI" },
